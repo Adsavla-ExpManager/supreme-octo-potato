@@ -20,4 +20,4 @@ ENV TESSDATA_PREFIX /usr/share/tesseract-ocr/4.00/tessdata/
 ENV PORT 8501
 
 # Run Streamlit when the container launches
-CMD ["streamlit", "run", "your_script.py"]
+CMD ["streamlit", "run", "app.py"]
